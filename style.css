@@ -36,10 +36,6 @@ h2 {
     width: 50%;
 }
 
-
-
-
-
 .section-1 {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
@@ -110,8 +106,8 @@ h2 {
 
 .curved-box {
     margin: 0 1%;
-    box-shadow: 0 0 10px rgb(207, 207, 207);
-    border-radius: 8%;
+    box-shadow: 0 0 30px rgb(211, 211, 211);
+    border-radius: 40px;
     padding: 2.5%;
 }
 
@@ -129,5 +125,45 @@ h2 {
 .curved-box p {
     font-size: 20px;
     color: rgb(27, 27, 27);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.section-4 {
+    margin: 100px 9%;
+    display: flex;
+    box-shadow: 0 0 30px rgb(211, 211, 211);
+    border-radius: 40px;
+    padding: 4%;
+}
+
+.three-pieces {
+    width: 33%;
+    padding-left: 10%;
+}
+
+.three-pieces h1 {
+    color: black;
+}
+
+.three-pieces p {
+    font-size: 18px;
+    color: rgb(74, 74, 74);
+    text-transform: capitalize;
+}
+
+footer {
+    background-color: black;
+    padding: 3%;
+    text-align: center
+}
+
+footer h3 {
+    color: gray;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.845);
 }
