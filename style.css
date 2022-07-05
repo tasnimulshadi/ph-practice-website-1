@@ -5,10 +5,16 @@ body {
 
 h1 {
     font-size: 60px;
-    color: rgba(37, 37, 37, 0.712);
     margin-bottom: 0;
     margin-top: 0;
 }
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 
 .centre-text {
     text-align: center;
@@ -37,6 +43,7 @@ h1 {
 .section-1 h1 {
     text-transform: capitalize;
     font-weight: 700;
+    color: rgba(37, 37, 37, 0.712);
 }
 
 .section-1 p {
@@ -58,8 +65,22 @@ h1 {
 
 .section-2 {
     margin: 50px 0;
+    padding: 0 10%;
 }
 
 .section-2 img {
-    width: 50%;
+    width: 65%;
+}
+
+.section-2 h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: rgba(37, 37, 37, 0.712);
+    margin-top: 170px;
+}
+
+.section-2 p {
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    margin-bottom: 40px;
 }
